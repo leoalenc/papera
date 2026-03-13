@@ -1,3 +1,88 @@
+@inproceedings{kahane-etal-2021-annotation-k,
+    title = "Annotation guidelines of {UD} and {SUD} treebanks for spoken corpora: A proposal",
+    author = "Kahane, Sylvain  and
+      Caron, Bernard  and
+      Strickland, Emmett  and
+      Gerdes, Kim",
+    editor = {Dakota, Daniel  and
+      Evang, Kilian  and
+      K{\"u}bler, Sandra},
+    booktitle = "Proceedings of the 20th International Workshop on Treebanks and Linguistic Theories (TLT, SyntaxFest 2021)",
+    month = dec,
+    year = "2021",
+    address = "Sofia, Bulgaria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.tlt-1.4/",
+    pages = "35--47"
+}
+
+@inproceedings{dobrovoljc-2022-spoken-k,
+    title = "Spoken Language Treebanks in {U}niversal {D}ependencies: an Overview",
+    author = "Dobrovoljc, Kaja",
+    editor = "Calzolari, Nicoletta  and
+      B{\'e}chet, Fr{\'e}d{\'e}ric  and
+      Blache, Philippe  and
+      Choukri, Khalid  and
+      Cieri, Christopher  and
+      Declerck, Thierry  and
+      Goggi, Sara  and
+      Isahara, Hitoshi  and
+      Maegaard, Bente  and
+      Mariani, Joseph  and
+      Mazo, H{\'e}l{\`e}ne  and
+      Odijk, Jan  and
+      Piperidis, Stelios",
+    booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.lrec-1.191/",
+    pages = "1798--1806",
+    abstract = "Given the benefits of syntactically annotated collections of transcribed speech in spoken language research and applications, many spoken language treebanks have been developed in the last decades, with divergent annotation schemes posing important limitations to cross-resource explorations, such as comparing data across languages, grammatical frameworks, and language domains. As a consequence, there has been a growing number of spoken language treebanks adopting the Universal Dependencies (UD) annotation scheme, aimed at cross-linguistically consistent morphosyntactic annotation. In view of the non-central role of spoken language data within the scheme and with little in-domain consolidation to date, this paper presents a comparative overview of spoken language treebanks in UD to support cross-treebank data explorations on the one hand, and encourage further treebank harmonization on the other. Our results show that the spoken language treebanks differ considerably with respect to the inventory and the format of transcribed phenomena, as well as the principles adopted in their morphosyntactic annotation. This is particularly true for the dependency annotation of speech disfluencies, where conflicting data annotations suggest an underspecification of the guidelines pertaining to speech repairs in general and the reparandum dependency relation in particular."
+}
+
+@inproceedings{davidson-etal-2019-dependency-k,
+    title = "Dependency Parsing for Spoken Dialog Systems",
+    author = "Davidson, Sam  and
+      Yu, Dian  and
+      Yu, Zhou",
+    editor = "Inui, Kentaro  and
+      Jiang, Jing  and
+      Ng, Vincent  and
+      Wan, Xiaojun",
+    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D19-1162/",
+    doi = "10.18653/v1/D19-1162",
+    pages = "1513--1519",
+    abstract = "Dependency parsing of conversational input can play an important role in language understanding for dialog systems by identifying the relationships between entities extracted from user utterances. Additionally, effective dependency parsing can elucidate differences in language structure and usage for discourse analysis of human-human versus human-machine dialogs. However, models trained on datasets based on news articles and web data do not perform well on spoken human-machine dialog, and currently available annotation schemes do not adapt well to dialog data. Therefore, we propose the Spoken Conversation Universal Dependencies (SCUD) annotation scheme that extends the Universal Dependencies (UD) (Nivre et al., 2016) guidelines to spoken human-machine dialogs. We also provide ConvBank, a conversation dataset between humans and an open-domain conversational dialog system with SCUD annotation. Finally, to demonstrate the utility of the dataset, we train a dependency parser on the ConvBank dataset. We demonstrate that by pre-training a dependency parser on a set of larger public datasets and fine-tuning on ConvBank data, we achieved the best result, 85.05{\%} unlabeled and 77.82{\%} labeled attachment accuracy."
+}
+
+@inproceedings{braggaar-van-der-goot-2021-challenges-k,
+    title = "Challenges in Annotating and Parsing Spoken, Code-switched, {F}risian-{D}utch Data",
+    author = "Braggaar, Anouck  and
+      van der Goot, Rob",
+    editor = "Ben-David, Eyal  and
+      Cohen, Shay  and
+      McDonald, Ryan  and
+      Plank, Barbara  and
+      Reichart, Roi  and
+      Rotman, Guy  and
+      Ziser, Yftah",
+    booktitle = "Proceedings of the Second Workshop on Domain Adaptation for NLP",
+    month = apr,
+    year = "2021",
+    address = "Kyiv, Ukraine",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.adaptnlp-1.6/",
+    pages = "50--58",
+    abstract = "While high performance have been obtained for high-resource languages, performance on low-resource languages lags behind. In this paper we focus on the parsing of the low-resource language Frisian. We use a sample of code-switched, spontaneously spoken data, which proves to be a challenging setup. We propose to train a parser specifically tailored towards the target domain, by selecting instances from multiple treebanks. Specifically, we use Latent Dirichlet Allocation (LDA), with word and character N-grams. We use a deep biaffine parser initialized with mBERT. The best single source treebank (nl{\_}alpino) resulted in an LAS of 54.7 whereas our data selection outperformed the single best transfer treebank and led to 55.6 LAS on the test data. Additional experiments consisted of removing diacritics from our Frisian data, creating more similar training data by cropping sentences and running our best model using XLM-R. These experiments did not lead to a better performance."
+}
+
 @inproceedings{mccarthy-etal-2018-marrying,
     title = "Marrying {U}niversal {D}ependencies and {U}niversal {M}orphology",
     author = "McCarthy, Arya D.  and
